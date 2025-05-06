@@ -8,7 +8,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func declare_variables_lesson() {
 	/* basic declaration using var keyword + variable name + type
 	declarea variable without immediately initialising it */
 	var massage1 string //value ""
