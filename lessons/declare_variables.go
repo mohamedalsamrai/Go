@@ -2,13 +2,13 @@
 this lesson discribs ways to declare variables
 */
 
-package main
+package lessons
 
 import (
 	"fmt"
 )
 
-func declare_variables_lesson() {
+func DeclareVariablesLesson() {
 	/* basic declaration using var keyword + variable name + type
 	declarea variable without immediately initialising it */
 	var massage1 string //value ""

@@ -1,10 +1,10 @@
-package main
+package basics
 
 import (
 	"fmt"
 )
 
-func main() {
+func HelloWorld() {
 
 	fmt.Println("Hello World")
 
