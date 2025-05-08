@@ -41,3 +41,5 @@ func DeclareVariablesLesson() {
 	fmt.Printf("a:%d b:%f c:%s\n", a, b, c)
 	fmt.Print("Pi:",Pi,"\n")
 }
+// := operator can only use within functions
+// name:="mohammed" erorr whine use it outside function
