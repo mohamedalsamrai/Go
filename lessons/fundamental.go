@@ -32,4 +32,16 @@ func FandamentalLesson() {
 	for i := range 10 {
 		fmt.Println(i)
 	}
+
+	//for like while
+	i := 1
+	for i <= 5 {
+		fmt.Println("count", i)
+		i++
+	}
+	// infinity loop
+	// for {
+	// 	fmt.Println("rrrr")
+	// }
+	
 }
