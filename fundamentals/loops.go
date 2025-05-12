@@ -1,8 +1,9 @@
-package lessons
+package fundamentals
 
 import "fmt"
 
-func FandamentalLesson() {
+func Loops() {
+
 	//for loop
 
 	// iteration over a range
@@ -43,5 +44,5 @@ func FandamentalLesson() {
 	// for {
 	// 	fmt.Println("rrrr")
 	// }
-	
+
 }
