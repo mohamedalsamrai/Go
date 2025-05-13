@@ -7,6 +7,7 @@
 *.dll
 *.so
 *.dylib
+.idea
 /pkg
 .vscode/
 main.go
