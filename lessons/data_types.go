@@ -39,4 +39,23 @@ func DataTypesLesson() {
 	}
 	fmt.Println("Matrix Array:", matrix)
 
+	// maps
+	// first way for declere map[key type ] value type
+	map1 := make(map[string]int)
+	fmt.Println(map1)
+	// second way map name := map[key type] value type {"key1":value ......}
+	map2 := map[string]int{
+		"k1": 88,
+		"k2": 62,
+		"k3": 33,
+	}
+	fmt.Println(map2)
+	// third way var mapName map[key type] value type this way gives nil map
+	var map3 map[string]string
+	fmt.Println(map3)
+	// map3["key1"] = "value1" // this will give error because map3 is nil
+	// map3 = make(map[string]string)
+	// map3["key1"] = "value1" // now this will work
+
+
 }
